@@ -130,7 +130,7 @@
   </snapshots>
 </repository>
 		</repositories>
-	<distributionManagement>>
+	<distributionManagement>
 		<repository>
   <id>srikalarekapalli</id>
   <url>https://pkgs.dev.azure.com/srikalarekapalli/_packaging/srikalarekapalli/maven/v1</url>
