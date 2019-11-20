@@ -118,7 +118,30 @@
 		</dependency>
 
 	</dependencies>
-
+	<repositories>
+<repository>
+  <id>srikalarekapalli</id>
+  <url>https://pkgs.dev.azure.com/srikalarekapalli/_packaging/srikalarekapalli/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+		</repositories>
+	<distributionManagement>>
+		<repository>
+  <id>srikalarekapalli</id>
+  <url>https://pkgs.dev.azure.com/srikalarekapalli/_packaging/srikalarekapalli/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+		</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
